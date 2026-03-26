@@ -1,0 +1,32 @@
+<!--
+ Exercise 06
+ Create a todo list app capable of storing your TODO's in local storage.Add an option to create ,delete and access all the todo's.
+ Try to make UI as good as possible
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minimal local todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>✓ todos</h2>
+        <div class="row">
+            <input type="text" id="taskInput" placeholder="write something...">
+            <button id="addBtn">Add</button>
+        </div>
+        <div class="counter" id="counter">0 items</div>
+        <ul class="todo-list" id="todoList"></ul>
+        <button class="clear-all" id="clearAll">clear all</button>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
